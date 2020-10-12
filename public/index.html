@@ -26,7 +26,7 @@
               <a class="nav-link text-info" href="support.html">Support</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-info" href="login.html">Sign In</a>
+              <a class="nav-link text-info" data-toggle="modal" data-target="#myModal" href="login.html">Sign In</a>
             </li>    
           </ul>
         </div>  
@@ -77,38 +77,60 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="card text-white bg-primary mt-5 mb-5 col-sm-4" style="max-width: 20rem;">
+        <div class="card text-white bg-primary mt-5 mb-5 col-sm-6" style="max-width: 50%;">
             <div class="card-body">
             <h4 class="card-title">A Better Solution</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
         <!--Creating zig zag pattern-->
-        <div class="col-sm-4"></div>
-        <div class="col-sm-4"></div>
+        <div class="col-sm-6"></div>
+    </div>
+    <div class="row flex-nowrap">
+        <!--Creating zig zag pattern-->
+        <div class="col-sm-6"></div>
+        <div class="card border-primary mt-5 mb-5 col-sm-6" style="max-width: 50%;">
+            <div class="card-body">
+            <h4 class="card-title">A Better Solution</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
     </div>
     <div class="row">
-        <!--Creating zig zag pattern-->
-        <div class="col-sm-4"></div>
-        <div class="col-sm-4"></div>
-        <div class="card border-primary mt-5 mb-5 col-sm-4" style="max-width: 20rem;">
+        <div class="card text-white bg-primary mt-5 mb-5 col-sm-6" style="max-width: 50%;">
             <div class="card-body">
             <h4 class="card-title">A Better Solution</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="card text-white bg-primary mt-5 mb-5 col-sm-4" style="max-width: 20rem;">
-            <div class="card-body">
-            <h4 class="card-title">A Better Solution</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text"><div class="30">Lorem ipsum dolor sit amet consectetur adipisicing elit. At quos unde aperiam quam sunt, consectetur, asperiores nam necessitatibus facere dolore quasi culpa voluptatum explicabo deleniti officia sed iusto rerum distinctio.</div></p>
             </div>
         </div>
         <!--Creating zig zag pattern-->
-        <div class="col-sm-4"></div>
-        <div class="col-sm-4"></div>
+        <div class="col-sm-6"></div>
     </div>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        Modal body..
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
 </div>
 
 
